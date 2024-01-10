@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #f0f0f0;
+}
+.main-contact-div{
+    background: url(picture1.jpg);
+    width: 80%;
+    height: 70vh;
+}
+.main-contact-div h2{
+    color: #f0f0f0;
+}
+.main-contact-div span {
+    color: #1ecbe1;
+    font-style: italic;
+}
+.inner-contact-div{
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    width: 90%;
+    height: 80%;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+form p label{
+    color: azure;
+}
+form p label svg{
+    position: position;
+}
+form p input{
+    width: 50%;
+    padding: 3px;
+    border: 1px solid #f0f0f0;
+    overflow-x: auto;
+    outline: none;
+    padding: 3px;
+    background: transparent;
+    height: 20px;
+}
+form p input::placeholder{
+    color: #fff;
+}
+form p input:focus-visible{
+    opacity: 0.7;
+    background: transparent;
+    backdrop-filter: blur(100px);
+    background:#162938;
+    border: none;
+    color: #f0f0f0;
+}
+form p .send-msg-btn{
+    margin-top: 30px;
+    padding: 3px;
+    width: 50%;
+    font-weight: bold;
+    background: #1ecbe1;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .9s;
+    font-size: 1.1em;
+}
